@@ -19,7 +19,7 @@ const editor = monaco.editor.create(document.getElementById("container"), {
 const container = document.getElementById("container");
 
 let hasUnsentEvent = false;
-container.addEventListener("keydown", () => {
+container.addEventListener("keyup", () => {
     hasUnsentEvent = true;
 });
 
